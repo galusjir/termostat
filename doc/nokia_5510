@@ -1,0 +1,37 @@
+ ******** General information about the display  **********
+Driver: PDC8544
+
+RST: reset pin
+SCE: Chip select
+D/C (Data Command):   Mode selector. Low = command mode, High = Data mode
+DN (Data Pin):  Serial Data In
+SCLK: Serial Clock
+VCC: Input voltahe from 2.7 to 3.3V
+LED: Backlight LED. Input voltage is 3.3
+GND: Ground
+
+I2C Connection to arduino UNO
+1 RST = 6 + 10K resistor
+2 SCE = 7 1K resistor
+3 D/C = 5 10K resistor
+4 DIN = 4 10k resistor
+5 CLK = 3 10k resistor
+6 VCC = 3.3V Pin
+7 LED = TBD
+
+ 
+
+***** U8glib *****
+Supported display controller: SSD1306, SSD1309, SSD1322, SSD1325, SSD1327, 
+SH1106, UC1601, UC1610, UC1611, UC1701, ST7565, ST7920, KS0108, LC7981,
+PCD8544, PCF8812, SBN1661, TLS8204, T6963.
+
+
+
+
+**** Adafruit PCD8544 *****
+In the example code there is specification how to set the pins. I will use the
+one with HARDWARE communication drouh SPI
+
+**** Adafruit GFX - Core graphic library ****
+
