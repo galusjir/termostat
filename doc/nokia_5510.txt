@@ -10,7 +10,7 @@ VCC: Input voltahe from 2.7 to 3.3V
 LED: Backlight LED. Input voltage is 3.3
 GND: Ground
 
-I2C Connection to arduino UNO
+Software level Connection to arduino UNO
 1 RST = 6 + 10K resistor
 2 SCE = 7 1K resistor
 3 D/C = 5 10K resistor
@@ -18,6 +18,8 @@ I2C Connection to arduino UNO
 5 CLK = 3 10k resistor
 6 VCC = 3.3V Pin
 7 LED = TBD
+
+Hardware Connection to the Arduino Uno
 
  
 
